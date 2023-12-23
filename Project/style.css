@@ -71,7 +71,7 @@ body video {
     height: 400px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
 }
 
 .card {
@@ -145,13 +145,17 @@ input:checked + label .description {
 
 .card[for="c1"] {
     background-image: url('./src/1.jpg');
+    background-position: center;
 }
 .card[for="c2"] {
     background-image: url('./src/2.jpg');
+    background-position: center;
 }
 .card[for="c3"] {
     background-image: url('./src/3.jpg');
+    background-position: center;
 }
 .card[for="c4"] {
     background-image: url('./src/4.jpg');
+    background-position: center;
 }
